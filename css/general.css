@@ -1,0 +1,35 @@
+.subheader {
+  color: white;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.button {
+  border: none;
+  outline: none;
+
+  cursor: pointer;
+
+  background-color: transparent;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.list__item {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 25px 20px;
+  margin-bottom: 15px;
+  min-height: 75px;
+
+  border-radius: 10px;
+
+  background-color: #15101c;
+}
+
+.list__item:last-child {
+  margin-bottom: 0;
+}
